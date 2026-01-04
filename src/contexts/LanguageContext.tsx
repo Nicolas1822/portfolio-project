@@ -22,6 +22,7 @@ const translations = {
     'hero.role': 'Desarrollador de Software',
     'hero.description': 'Mi objetivo profesional es seguir creciendo como desarrollador, utilizando mis habilidades y experiencia para diseñar y construir aplicaciones web escalables y eficientes. Busco oportunidades que me desafíen a ampliar mis conocimientos.',
     'hero.cta': 'Contáctame',
+    'hero.downloadCV': 'Descargar CV',
     'hero.resume': 'Ver CV',
     
     // Skills
@@ -102,6 +103,7 @@ const translations = {
     'hero.role': 'Software Developer',
     'hero.description': 'My professional goal is to continue growing as a developer, using my skills and experience to design and build scalable and efficient web applications. I seek opportunities that challenge me to expand my knowledge.',
     'hero.cta': 'Contact Me',
+    'hero.downloadCV': 'Download CV',
     'hero.resume': 'View Resume',
     
     // Skills
