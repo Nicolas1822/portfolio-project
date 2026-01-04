@@ -1,9 +1,11 @@
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useScrollReveal } from '@/hooks/useScrollReveal';
 import { Mail, Phone, Github, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const ContactSection = () => {
   const { t } = useLanguage();
+  const { ref, isVisible } = useScrollReveal({ threshold: 0.1 });
 
   const contactInfo = [
     {
@@ -28,7 +30,11 @@ const ContactSection = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 relative">
+    <section 
+      id="contact" 
+      ref={ref as React.RefObject<HTMLElement>}
+      className={`py-20 relative transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
+    >
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/2 right-1/4 w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl" />
       </div>

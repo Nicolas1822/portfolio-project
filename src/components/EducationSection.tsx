@@ -1,8 +1,10 @@
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useScrollReveal } from '@/hooks/useScrollReveal';
 import { GraduationCap, Calendar, Award } from 'lucide-react';
 
 const EducationSection = () => {
   const { t } = useLanguage();
+  const { ref, isVisible } = useScrollReveal({ threshold: 0.1 });
 
   const education = [
     {
@@ -39,7 +41,11 @@ const EducationSection = () => {
   ];
 
   return (
-    <section id="education" className="py-20 relative">
+    <section 
+      id="education" 
+      ref={ref as React.RefObject<HTMLElement>}
+      className={`py-20 relative transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
+    >
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute bottom-0 left-1/4 w-[400px] h-[400px] bg-primary/5 rounded-full blur-3xl" />
       </div>

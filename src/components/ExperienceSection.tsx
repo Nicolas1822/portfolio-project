@@ -1,8 +1,10 @@
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useScrollReveal } from '@/hooks/useScrollReveal';
 import { Briefcase, Calendar } from 'lucide-react';
 
 const ExperienceSection = () => {
   const { t } = useLanguage();
+  const { ref, isVisible } = useScrollReveal({ threshold: 0.1 });
 
   const experiences = [
     {
@@ -32,7 +34,11 @@ const ExperienceSection = () => {
   ];
 
   return (
-    <section id="experience" className="py-20 relative">
+    <section 
+      id="experience" 
+      ref={ref as React.RefObject<HTMLElement>}
+      className={`py-20 relative transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
+    >
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
           <span className="gradient-text">{t('experience.title')}</span>

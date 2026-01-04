@@ -1,4 +1,5 @@
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useScrollReveal } from '@/hooks/useScrollReveal';
 import { Code, Users, Lightbulb, BookOpen, RefreshCw, MessageCircle } from 'lucide-react';
 
 const technicalSkills = [
@@ -10,6 +11,7 @@ const technicalSkills = [
 
 const SkillsSection = () => {
   const { t } = useLanguage();
+  const { ref, isVisible } = useScrollReveal({ threshold: 0.1 });
 
   const softSkills = [
     { icon: Users, label: t('skills.collaboration') },
@@ -21,7 +23,11 @@ const SkillsSection = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 relative">
+    <section 
+      id="skills" 
+      ref={ref as React.RefObject<HTMLElement>}
+      className={`py-20 relative transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
+    >
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl" />
       </div>
