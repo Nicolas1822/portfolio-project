@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Mail, Phone } from 'lucide-react';
+import { ArrowRight, Download, Github, Mail, Phone } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import profilePhoto from '@/assets/profile-photo.jpeg';
@@ -53,6 +53,17 @@ const HeroSection = () => {
               >
                 {t('hero.cta')}
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="group border-primary/50 hover:bg-primary/10"
+                asChild
+              >
+                <a href="/CV_Nicolas_Gonzalez_Gutierrez.pdf" download>
+                  <Download className="mr-2 w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
+                  {t('hero.downloadCV')}
+                </a>
               </Button>
             </div>
 
