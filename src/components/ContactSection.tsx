@@ -11,8 +11,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: t('contact.email'),
-      value: 'ng33446@gmail.com',
-      href: 'mailto:ng33446@gmail.com',
+      value: 'nicolas.jobs.developer@gmail.com',
+      href: 'mailto:nicolas.jobs.developer@gmail.com',
     },
     {
       icon: Phone,
@@ -24,14 +24,14 @@ const ContactSection = () => {
       icon: Github,
       label: t('contact.github'),
       value: 'GitHub Profile',
-      href: 'https://github.com/ng33446',
+      href: 'https://github.com/Nicolas1822',
       external: true,
     },
   ];
 
   return (
-    <section 
-      id="contact" 
+    <section
+      id="contact"
       ref={ref as React.RefObject<HTMLElement>}
       className={`py-20 relative transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
     >
@@ -70,14 +70,14 @@ const ContactSection = () => {
           <div className="mt-12 text-center">
             <p className="text-muted-foreground mb-6">
               {t('contact.email')} →{' '}
-              <a href="mailto:ng33446@gmail.com" className="text-primary hover:underline">
-                ng33446@gmail.com
+              <a href="mailto:nicolas.jobs.developer@gmail.com" className="text-primary hover:underline">
+                nicolas.jobs.developer@gmail.com
               </a>
             </p>
             <Button
               size="lg"
               className="bg-primary hover:bg-primary/90 glow"
-              onClick={() => window.open('mailto:ng33446@gmail.com', '_blank')}
+              onClick={() => window.open('mailto:nicolas.jobs.developer@gmail.com', '_blank')}
             >
               <Mail className="w-4 h-4 mr-2" />
               {t('hero.cta')}

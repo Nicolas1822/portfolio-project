@@ -16,15 +16,15 @@ const translations = {
     'nav.experience': 'Experiencia',
     'nav.education': 'Educación',
     'nav.contact': 'Contacto',
-    
+
     // Hero
     'hero.greeting': 'Hola, soy',
     'hero.role': 'Desarrollador de Software',
-    'hero.description': 'Mi objetivo profesional es seguir creciendo como desarrollador, utilizando mis habilidades y experiencia para diseñar y construir aplicaciones web escalables y eficientes. Busco oportunidades que me desafíen a ampliar mis conocimientos.',
+    'hero.description': 'Hola, soy Nicolas una persona apasionada por la programación y el desarrollo de software, Desde que empecé hace 5 años en el mundo de la tecnología, siempre he visto la programación como un arte en el cual puedes materializar cualquier idea abstracta que exista en tu mente y convertirla en una solución funcional para una o millones de personas. Si quieres conocer más sobre mi experiencia profesional, te invito a que sigas explorando mi portafolio.',
     'hero.cta': 'Contáctame',
     'hero.downloadCV': 'Descargar CV',
     'hero.resume': 'Ver CV',
-    
+
     // Skills
     'skills.title': 'Habilidades',
     'skills.technical': 'Habilidades Técnicas',
@@ -35,7 +35,7 @@ const translations = {
     'skills.creativity': 'Creatividad e innovación',
     'skills.learning': 'Aprendizaje constante',
     'skills.adaptability': 'Adaptabilidad',
-    
+
     // Experience
     'experience.title': 'Experiencia Profesional',
     'experience.grupomagin.role': 'Desarrollador de Software',
@@ -45,48 +45,48 @@ const translations = {
     'experience.grupomagin.desc3': 'Optimización de rendimiento.',
     'experience.grupomagin.desc4': 'Desarrollo back-end con tecnologías: Laravel, MySQL, GitHub, JSON, API Rest.',
     'experience.grupomagin.desc5': 'Desarrollo front-end con tecnologías: HTML5, CSS3, JavaScript, Bootstrap, jQuery.',
-    
+
     'experience.comdata.role': 'Etapa Productiva - Soporte Técnico',
     'experience.comdata.period': 'May 2022 - Nov 2022',
     'experience.comdata.desc1': 'Mantenimiento de software, garantizando su funcionamiento óptimo.',
     'experience.comdata.desc2': 'Soporte técnico especializado en hardware, diagnóstico de problemas y reparación de equipos.',
     'experience.comdata.desc3': 'Atención y resolución eficiente de incidencias, ofreciendo asistencia técnica oportuna.',
-    
+
     // Education
     'education.title': 'Educación',
     'education.cun.title': 'Ingeniería de Sistemas',
     'education.cun.institution': 'Corporación Unificada Nacional de Educación Superior CUN',
     'education.cun.period': 'Ago 2024 - Actualidad',
     'education.cun.desc': 'Cursando noveno semestre',
-    
+
     'education.docker.title': 'Fundamentos de Docker',
     'education.docker.institution': 'Platzi',
     'education.docker.period': 'Jun 2024',
-    
+
     'education.typescript.title': 'POO y Asincronismo con TypeScript',
     'education.typescript.institution': 'Platzi',
     'education.typescript.period': 'May 2023',
-    
+
     'education.nodejs.title': 'Escuela Backend con NodeJS',
     'education.nodejs.institution': 'Platzi',
     'education.nodejs.period': 'Mar 2023 - Abr 2023',
-    
+
     'education.sena.title': 'Tecnólogo en ADSI',
     'education.sena.institution': 'SENA Centro de Industria y Comercio',
     'education.sena.period': 'Oct 2020 - Mar 2022',
     'education.sena.desc': 'Análisis y Desarrollo de Sistemas de Información',
-    
+
     // Contact
     'contact.title': 'Contacto',
     'contact.email': 'Email',
     'contact.phone': 'Teléfono',
     'contact.github': 'GitHub',
-    
+
     // Languages
     'languages.title': 'Idiomas',
     'languages.spanish': 'Español - Nativo',
     'languages.english': 'Inglés - Intermedio A2',
-    
+
     // Footer
     'footer.rights': 'Todos los derechos reservados.',
   },
@@ -97,15 +97,15 @@ const translations = {
     'nav.experience': 'Experience',
     'nav.education': 'Education',
     'nav.contact': 'Contact',
-    
+
     // Hero
     'hero.greeting': "Hi, I'm",
     'hero.role': 'Software Developer',
-    'hero.description': 'My professional goal is to continue growing as a developer, using my skills and experience to design and build scalable and efficient web applications. I seek opportunities that challenge me to expand my knowledge.',
+    'hero.description': "Hello, I'm Nicolas, someone who is passionate about programming and software development. Since I started out in the world of technology five years ago, I have always seen programming as an art form in which you can bring any abstract idea in your mind to life and turn it into a functional solution for one or millions of people. If you would like to learn more about my professional experience, I invite you to continue exploring my portfolio.",
     'hero.cta': 'Contact Me',
     'hero.downloadCV': 'Download CV',
     'hero.resume': 'View Resume',
-    
+
     // Skills
     'skills.title': 'Skills',
     'skills.technical': 'Technical Skills',
@@ -116,7 +116,7 @@ const translations = {
     'skills.creativity': 'Creativity & innovation',
     'skills.learning': 'Continuous learning',
     'skills.adaptability': 'Adaptability',
-    
+
     // Experience
     'experience.title': 'Professional Experience',
     'experience.grupomagin.role': 'Software Developer',
@@ -126,48 +126,48 @@ const translations = {
     'experience.grupomagin.desc3': 'Performance optimization.',
     'experience.grupomagin.desc4': 'Back-end development with: Laravel, MySQL, GitHub, JSON, API Rest.',
     'experience.grupomagin.desc5': 'Front-end development with: HTML5, CSS3, JavaScript, Bootstrap, jQuery.',
-    
+
     'experience.comdata.role': 'Internship - Technical Support',
     'experience.comdata.period': 'May 2022 - Nov 2022',
     'experience.comdata.desc1': 'Software maintenance, ensuring optimal performance.',
     'experience.comdata.desc2': 'Specialized hardware technical support, problem diagnosis and equipment repair.',
     'experience.comdata.desc3': 'Efficient incident resolution, providing timely technical assistance.',
-    
+
     // Education
     'education.title': 'Education',
     'education.cun.title': 'Systems Engineering',
     'education.cun.institution': 'CUN - National Unified Corporation of Higher Education',
     'education.cun.period': 'Aug 2024 - Present',
     'education.cun.desc': 'Currently in ninth semester',
-    
+
     'education.docker.title': 'Docker Fundamentals',
     'education.docker.institution': 'Platzi',
     'education.docker.period': 'Jun 2024',
-    
+
     'education.typescript.title': 'OOP and Asynchronism with TypeScript',
     'education.typescript.institution': 'Platzi',
     'education.typescript.period': 'May 2023',
-    
+
     'education.nodejs.title': 'Backend School with NodeJS',
     'education.nodejs.institution': 'Platzi',
     'education.nodejs.period': 'Mar 2023 - Apr 2023',
-    
+
     'education.sena.title': 'Information Systems Technologist',
     'education.sena.institution': 'SENA Center of Industry and Commerce',
     'education.sena.period': 'Oct 2020 - Mar 2022',
     'education.sena.desc': 'Analysis and Development of Information Systems',
-    
+
     // Contact
     'contact.title': 'Contact',
     'contact.email': 'Email',
     'contact.phone': 'Phone',
     'contact.github': 'GitHub',
-    
+
     // Languages
     'languages.title': 'Languages',
     'languages.spanish': 'Spanish - Native',
     'languages.english': 'English - Intermediate A2',
-    
+
     // Footer
     'footer.rights': 'All rights reserved.',
   },

@@ -70,7 +70,7 @@ const HeroSection = () => {
             {/* Quick Contact */}
             <div className="flex items-center gap-6 mt-8 justify-center lg:justify-start animate-fade-in opacity-0" style={{ animationDelay: '0.6s' }}>
               <a
-                href="mailto:ng33446@gmail.com"
+                href="mailto:nicolas.jobs.developer@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >
@@ -84,7 +84,7 @@ const HeroSection = () => {
                 <Phone className="w-5 h-5" />
               </a>
               <a
-                href="https://github.com/ng33446"
+                href="https://github.com/Nicolas1822"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"

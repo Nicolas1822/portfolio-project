@@ -3,8 +3,8 @@ import { useScrollReveal } from '@/hooks/useScrollReveal';
 import { Code, Users, Lightbulb, BookOpen, RefreshCw, MessageCircle } from 'lucide-react';
 
 const technicalSkills = [
-  { category: 'Frontend', skills: ['HTML5', 'CSS3', 'JavaScript ES6', 'TypeScript', 'Bootstrap', 'Semantic UI', 'jQuery'] },
-  { category: 'Backend', skills: ['Node.js', 'Express.js', 'AdonisJS', 'Laravel', 'PHP', 'Java'] },
+  { category: 'Frontend', skills: ['HTML5', 'CSS3', 'JavaScript ES6', 'TypeScript', 'Bootstrap', 'Semantic UI', 'jQuery', 'Vue.js', 'Tailwind CSS'] },
+  { category: 'Backend', skills: ['Laravel', 'Spring Boot', 'Express.js', 'AdonisJS', 'Node.js', 'PHP', 'Java'] },
   { category: 'Database', skills: ['MySQL', 'PostgreSQL', 'Oracle', 'MongoDB'] },
   { category: 'Tools & Others', skills: ['Git', 'GitHub', 'Docker', 'Postman', 'API REST', 'MVC', 'Hexagonal Architecture', 'Clean Code', 'SOLID'] },
 ];
@@ -23,8 +23,8 @@ const SkillsSection = () => {
   ];
 
   return (
-    <section 
-      id="skills" 
+    <section
+      id="skills"
       ref={ref as React.RefObject<HTMLElement>}
       className={`py-20 relative transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
     >
